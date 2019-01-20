@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>        
+        <meta name="viewport" width="device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>     
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    </head>
+        
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="navlinks">Home</a>
+                <a href="page2.html" class="navlinks">About</a>
+                <a href="page3.html" class="navlinks">Things to Experience</a>
+                <a href="page4.html" class="navlinks">To Do & Not Do</a>
+            </nav>                       
+        </header> <br>
+    
+        <div id="slides" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>      
+            </ol>
+            
+            <div class="carousel-inner">              
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" alt="slide1">
+                </div>
+                
+                <div class ="carousel-item">
+                    <img src="images/2.jpg" alt="slide2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" alt="slide3">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/4.jpg" alt="slide4">
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#slides" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slides" data-slide="next">
+            <span class="carousel-control-next-icon"></span> 
+            </a>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Sri Lanka</h1>
+                    A small island situated to the south of the Indian subcontinent, Sri Lanka is a country full of wonderful things to do and see at all times of the year.<br>
+                </div>
+                <div class="col">
+                    <h1>Climate</h1>
+                    This country has a warm climate throughout the year and 2 main monsoon seasons. The temperature is around 28-30°C but can be cooler in the hill country.<br>
+                </div>
+                <div class="col">
+                    <h1>Food</h1>
+                    Be prepared to go through a culinary journey flowing with spices when in Sri Lanka. Many Sri Lankans consider their staple food to be rice and curry.<br>
+                </div>
+                <div class="col">
+                    <h1>People</h1>
+                    Considered as some of the friendliest people in the world, it is very rarely that you won't find a Sri Lankan with a bright smile and a simple nod to say hello.<br>
+                </div>
+            </div>
+        </div>
+        
+        <footer>           
+            <img src="images/footer.png" width="200px"><br>
+            <br>CS50Web 2019 Project 0 - J. K. D. R. Jayasekara
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,165 @@
+/*CSS for all pages*/
+.index_header {
+  background-image: url(../images/headerbg.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%; }
+
+.navbar {
+  float: center;
+  margin: 0px 150px; }
+
+.mainlinks, .navlinks {
+  display: inline-block;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-size: 29px;
+  color: black;
+  margin-top: 50px;
+  border-radius: 45px; }
+
+.mainlinks {
+  background-color: white;
+  border: 2px solid white; }
+
+.mainlinks:hover, .navlinks:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-size: 32px; }
+
+.navlinks {
+  background-color: #D4E6F1;
+  border: 2px solid #EAF2F8; }
+
+.mainlinks:hover {
+  font-size: 30px; }
+
+.navlinks:hover {
+  border: 4px solid #EAF2F8; }
+
+body {
+  background-image: url(../images/bg.jpg);
+  font-family: Century Gothic; }
+
+footer {
+  font-family: Century Gothic;
+  background-color: black;
+  color: white;
+  padding: 30px 30px;
+  border-top: 5px double white;
+  margin-top: 10px; }
+
+h1::selection {
+  background-color: peachpuff; }
+
+@media (max-width: 1100px) {
+  .index_header {
+    background-image: url(../images/headerbg2.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%; }
+
+  .mainlinks, .navlinks {
+    font-size: 20px;
+    padding: 10px; }
+
+  .mainlinks:hover, .navlinks:hover {
+    font-size: 21px; }
+
+  .arrowlink {
+    display: none; }
+
+  .carousel-inner img {
+    height: 100%;
+    width: 100%; } }
+/*CSS for index.html*/
+.arrow {
+  padding-top: 540px;
+  padding-left: 750px; }
+
+a.arrowlink:link, a.arrowlink:visited {
+  color: white; }
+
+.index_pics:hover .desc {
+  visibility: visible;
+  opacity: 1; }
+
+.index_pics {
+  display: inline-block; }
+  .index_pics .desc {
+    font-family: Century Gothic;
+    font-size: 25px;
+    text-align: center;
+    visibility: hidden;
+    margin-bottom: 50px; }
+  .index_pics .image {
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 380px;
+    float: left;
+    margin: 60px;
+    opacity: 0.7; }
+  .index_pics .image:hover {
+    opacity: 1; }
+
+.topic {
+  font-size: 50px; }
+
+/*CSS for page2.html*/
+#slides {
+  margin: 0px 158px 20px; }
+
+.container {
+  text-align: center;
+  padding: 40px; }
+
+.col {
+  font-size: 25px;
+  padding: 18px;
+  font-family: Century Gothic; }
+
+.col:not(:first-of-type) {
+  border-left: 5px solid black; }
+
+/*CSS for page3.html*/
+.collage {
+  width: 100%;
+  height: 100%;
+  padding: 0px 158px; }
+
+.collage-s {
+  width: 100%;
+  height: 100%;
+  padding: 0px 50px; }
+
+.list {
+  padding: 0px 35px;
+  font-family: Century Gothic;
+  font-size: 25px; }
+
+h1 {
+  font-size: 80px;
+  padding: 40px;
+  font-weight: bold; }
+
+/*CSS for page4.html*/
+table, td, tr {
+  font-size: 25px;
+  font-family: Century Gothic;
+  padding: 20px 10px;
+  margin: 100px;
+  text-align: center; }
+
+th {
+  font-size: 50px;
+  font-weight: normal; }
+
+td {
+  border-right: 5px solid black; }
+
+table, th {
+  border: 5px solid black; }
+
+/*# sourceMappingURL=styles.css.map */
