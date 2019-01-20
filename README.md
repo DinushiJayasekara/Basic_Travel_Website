@@ -1,7 +1,3 @@
-# Project 0
+# Travel Website
 
-Web Programming with Python and JavaScript
-
-This website is about Sri Lanka.
-There are 4 HTML pages including the index.html page.
-There is one Sass file along with its CSS one.
+This is a basic website about Sri Lanka made from just HTML and CSS.
